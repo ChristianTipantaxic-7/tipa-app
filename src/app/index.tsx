@@ -3,20 +3,14 @@ import { Text, View, StyleSheet, Pressable } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-
-      {/* Decoración del fondo */}
       <View style={styles.circleTop} />
       <View style={styles.circleBottom} />
 
-      {/* Tarjeta principal */}
       <View style={styles.card}>
-
-        {/* Avatar */}
         <View style={styles.avatar}>
           <Text style={styles.avatarText}>CT</Text>
         </View>
 
-        {/* Título */}
         <Text style={styles.welcome}>¡Bienvenido!</Text>
 
         <Text style={styles.name}>Christian Tipantaxi</Text>
@@ -29,10 +23,8 @@ export default function Index() {
           💻 Informática
         </Text>
 
-        {/* Separador */}
         <View style={styles.line} />
 
-        {/* Información */}
         <View style={styles.infoBox}>
           <Text style={styles.infoTitle}>🚀 Semana 05</Text>
           <Text style={styles.infoText}>
@@ -40,7 +32,6 @@ export default function Index() {
           </Text>
         </View>
 
-        {/* Botón */}
         <Pressable style={styles.button}>
           <Text style={styles.buttonText}>✨ Mi proyecto</Text>
         </Pressable>
@@ -48,7 +39,6 @@ export default function Index() {
         <Text style={styles.footer}>
           Desarrollando con React Native
         </Text>
-
       </View>
     </View>
   );
@@ -91,7 +81,6 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     padding: 28,
     alignItems: "center",
-
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -99,7 +88,6 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 15,
-
     elevation: 10,
   },
 
